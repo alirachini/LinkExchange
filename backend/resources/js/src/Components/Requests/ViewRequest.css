@@ -1,0 +1,243 @@
+
+.data{  
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.request{
+    padding-top:20px;
+    display:flex;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f0f0f0;
+}
+
+.comments-side{
+    margin-top:-23vh;
+    
+}
+.comments{
+    display:flex;
+    flex-direction: column;
+   /* background-color: #f0f0f0; */
+    border-radius: 5px;
+    padding:5px;
+    height:50vh;
+    width:30vw;
+    overflow-y: scroll;
+}
+.comment-text-sender{
+    display:flex;
+    flex-direction: column;
+    border-radius:0px 10px 10px 0px;
+    background-color: #f0f0f0;
+    border-left:3px solid blue;
+    padding:10px;
+    margin:3px;
+}
+.comment-text-receiver{
+    display:flex;
+    flex-direction: column;
+    border-radius:0px 10px 10px 0px;
+    background-color: #f0f0f0;
+    border-left:3px solid black;
+    padding:10px;
+    margin:3px;
+}
+.uneditable-data{
+   display:grid;
+   grid-template-columns: auto auto;
+   grid-template-rows: auto;
+   border-radius:  0px 10px 10px 0px;
+   margin:2vw 3vw 2vw 2vw;
+   background-color: white;
+   border-left:3px solid black;
+   padding-left:20px;
+}
+.editable-data{
+    display:grid;
+    grid-template-columns: 10vw auto;
+    border-radius:  0px 10px 10px 0px;
+    padding:20px;
+    margin:0vw 3vw 2vw 2vw;
+    width:35vw;
+    border-left:3px solid blue;
+    background-color: white;
+ }
+
+.from-label,.to-label,.time-to-add-label,.status-label,.amount-label,.from-text,.to-text,.time-to-add-text,.status-text,.amount-text{
+    padding:5px;
+}
+.title-label,.url-label,.link-to-article-label,.note-label,.title-text,.url-text,.link-to-article-text,.note-text{
+    padding-bottom:15px;
+    padding-left:5px;
+    padding-top:15px;
+}
+.pass{
+    margin-right:5px;
+}
+.add-comment{
+    width:15vw;
+    height: 10vh;
+    margin-left:20px;
+    margin-top:15px;
+    margin-right:10px;
+}
+.add-comment-button{
+    width:10vw;
+    margin-top:17px;
+}
+.add-comment-div{
+    display:flex;
+    background-color: #f0f0f0;
+    border-left: 2px solid black;
+    width:28.5vw;
+    height: 15vh;
+    border-radius: 0px 5px 5px 0px;
+    margin-top:20px;
+    margin-bottom:-65px;
+    margin-left:10px;
+}
+.controllers-sender{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    width:20vw;
+    margin-top:150px;
+    margin-left:-150px;
+}
+.controllers-receiver{
+    display: flex;
+    align-items: space-between;
+    justify-content: space-around;
+    width:20vw;
+    margin-top:150px;
+    margin-left:-150px;
+}
+.controllers-done{
+    display: flex;
+    align-items: space-between;
+    justify-content: space-around;
+    width:20vw;
+    margin-top:150px;
+    margin-left:-150px;
+
+}
+.MuiInputBase-input{
+    font-size:15px !important;
+}
+  @media screen and (max-width:1000px) {
+
+    .data{
+        width:100%;
+        height: 100%;
+        display:flex;
+        flex-direction: column;
+    }
+    
+.request{
+    padding-top:20px;
+    display:flex;
+    width:70vw;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f0f0f0;
+}
+.editable-data{
+    display:grid;
+    grid-template-columns: 10vw auto;
+    border-radius:  0px 10px 10px 0px;
+    padding:20px;
+    margin:0vw 3vw 2vw 2vw;
+    width:65vw;
+    border-left:3px solid blue;
+    background-color: white;
+ }
+
+.comments-side{
+    margin-top:50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:100vw;
+}
+.comments{
+    display:flex;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-bottom:40px;
+    padding:5px;
+    height:60vh;
+    width:70vw;
+    overflow-y: scroll;
+}
+.add-comment-div{
+    display:flex;
+    background-color: #f0f0f0;
+    border-left: 2px solid black;
+    width:66vw;
+    height: 20vh;
+    border-radius: 0px 5px 5px 0px;
+    margin-top:-20px;
+    margin-bottom:65px;
+    margin-right:10px;
+}
+.controllers-sender{
+    display: flex;
+    align-items: space-between;
+    justify-content: space-evenly;
+    margin-top:150px;
+    margin-left:-300px;
+    width:auto;
+    
+}
+.controllers-done{
+    display: flex;
+    align-items: space-between;
+    justify-content: space-around;
+    width:20vw;
+    margin-top:150px;
+    margin-left:-150px;
+
+}
+.controllers-receiver{
+    display: flex;
+    align-items: space-between;
+    justify-content: space-evenly;
+    margin-top:150px;
+    margin-left:-300px;
+    width:auto;
+}
+.add-comment{
+    width:30vw;
+    height: 16vh;
+    margin-left:20px;
+    margin-top:15px;
+    margin-right:10px;
+}
+.add-comment-button{
+    width:10vw;
+}
+.add-comment-b{
+    width:28vw ;
+    height:15vh;
+}
+.all-controllers{
+    width:200%;
+    justify-content: space-between;
+    align-items: center;
+}
+.request-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    margin-bottom:20px;
+}
+  }
+

@@ -1,0 +1,130 @@
+.EditProfileContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vh;
+
+}
+.titleEditProfile {
+    right: 40rem;
+    width: 50%;
+    margin: 0;
+    color: var(--primary-color);
+}
+.LabelEditProfile
+{
+    display:block;
+    padding-top: 3vh;
+    padding-bottom: 1vh;
+    color: #000;
+    text-align: left;
+}
+.text-boxEditProfile {
+    width: 30vw;
+    height: 5vh;
+}
+.btn-lg{
+    display: flex;
+    height: 4vh;
+    justify-content: center;
+    width: 12vw;
+    margin-top: 3vh;
+    margin-bottom: 4vh;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1rem;
+
+
+}
+
+@keyframes confirm {
+    20% {
+        transform: translateX(15vw);
+        opacity: 1;
+    }
+    60% {
+        transform: translateX(15vw);
+        opacity: 1;
+    }
+    80%{
+        transform: translateX(15vw);
+        opacity: 1;
+    }
+    90% {
+        transform: translateX(0vw);
+        opacity: 0;
+    }
+}
+
+@media only screen and (max-width: 1020px) {
+    .confirmation{
+        width: 30vw;
+    }
+
+    .activee {
+        width: 30vw;
+    }
+
+}
+
+@media only screen and (max-width: 820px) {
+    .section2  {
+        display: none;
+    }
+
+    .section1{
+        width: 80vw;
+        padding-left: 0%;
+    }
+
+    .section1 input {
+        width: 70vw;
+    }
+
+    .section1 textarea {
+        width: 70vw;
+    }
+
+    .section1 > .send {
+        padding-left: 0%;
+    }
+
+    .section1  button {
+        width: 60vw;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
+
+@media only screen and (max-width: 700px) {
+    .confirmation{
+        width: 50vw;
+    }
+
+    .activee {
+        width: 50vw;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .confirmation{
+        width: 70vw;
+    }
+
+    .activee {
+        width: 70vw;
+    }
+}
+  

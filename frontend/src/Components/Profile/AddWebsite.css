@@ -1,0 +1,271 @@
+.add-website-page{
+display: flex;
+    justify-content: center;
+    align-content: center;
+
+
+}
+.add-website-info{
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+
+
+    width: 50%;
+    height: 85vh;
+    margin: 2vh 0;
+    transition: 500ms;
+    background-color: #F6F6BD;
+
+    flex-direction: column;
+
+    align-items: center;
+
+}
+.popup_title{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+#more {
+    display: none;
+}
+#myBtn{
+    width: 10rem;
+
+
+}
+.input_labelAddWebsite {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+.add_website_questions{
+    width: 70%;
+    text-align: center;
+}
+.example{
+    padding: 0;
+    margin: 0;
+}
+.terms{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+    width: 90%;
+
+}
+
+.input_labelAddWebsite label  {
+    font-weight: 400;
+    font-size: small;
+}
+
+.input_labelAddWebsite input {
+    width: 40%;
+}
+.add_website_btn {
+
+
+    background-color: rgb(68, 134, 255);
+    color: #fff;
+    width: 5px;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    font-size: medium;
+    cursor: pointer;
+}
+.add_website_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-right: 25rem;
+    margin-top: 1rem;
+}
+.terms-paragraph{
+    font-size: small;
+    margin-right: 5rem;
+
+}
+.custom-checkbox{
+    margin-left: 5rem;
+}
+.cancel_website_btn{
+    align-self: flex-end;
+    margin-left: 25rem;
+    background-color: rgb(68, 134, 255);
+    color: #fff;
+    width: 5px;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    font-size:medium;
+    cursor: pointer;
+}
+
+.cancel-button{
+    width: 70px;
+}
+.confirm-button{
+    width: 70px;
+
+
+
+}
+
+@media screen and (min-width: 650px) and (max-width: 1024px){
+    .popup_title{
+        font-size: small;
+
+    }
+    .terms{
+        width: 80%;
+    }
+
+    .cancel_website_btn{
+        margin-left: 18rem;
+    }
+    .terms-paragraph{
+        font-size: 9px;
+        margin-right: 3rem;
+
+    }
+    .add_website_buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        margin-right: 20rem;
+        margin-top: 1rem;
+    }
+
+
+
+}
+@media screen and (max-width: 767px){
+
+
+    .add_website_questions{
+        width: 15%;
+        margin: 0.1rem;
+
+        text-align: center;
+    }
+
+    .input_labelAddWebsite label  {
+        font-weight: 300;
+        font-size: xx-small;
+
+    }
+    .popup_title{
+        font-size: x-small;
+
+    }
+    .input_labelAddWebsite input {
+        width: 20%;
+        height: 5px;
+        margin: 0.1rem;
+    }
+    .input_labelAddWebsite{
+        margin: 0;
+    }
+    .example{
+        width: 20%;
+        margin: 0.1rem;
+    }
+    .terms{
+        width: auto;
+        margin: 0.5rem 0 0 0;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .custom-checkbox{
+        margin: 0;
+    }
+    .terms-paragraph{
+        font-size: 9px;
+        width: 20%;
+        height: 50%;
+        margin-left: 22rem;
+        word-wrap: break-word;
+        margin-top: 0;
+        margin-bottom: 0;
+
+    }
+    #myBtn{
+        width: 3rem;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-self: center;
+        font-size: 9px;
+
+
+    }
+    .buttons-add-websites{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .add_website_buttons{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-content: center;
+        margin-right: 3rem;
+        margin-top: 1rem;
+    }
+    .add_website_btn{
+        background-color: rgb(68, 134, 255);
+        margin-left: 0rem;
+        color: #fff;
+        width: 5px;
+        height: 2rem;
+        border-radius: 5px;
+        border: none;
+        font-weight: 200;
+        font-size:smaller;
+        align-self: center;
+
+        align-items: center;
+    }
+    .cancel_website_btn{
+        align-self: flex-start;
+        margin-left: 25rem;
+        background-color: rgb(68, 134, 255);
+        color: #fff;
+        width: 2px;
+        height: 2rem;
+        border-radius: 5px;
+        border: none;
+        font-weight: 200;
+        font-size: x-small;
+        cursor: pointer;
+    }
+    .confirm-button{
+        width: 60px;
+        margin-left: 400px;
+        align-items: center;
+
+    }
+    .cancel-button{
+        width: 60px;
+        margin-right: 750px;
+        align-items: center;
+    }
+    .add_website_tittle{
+        margin: 0;
+    }
+
+}
+

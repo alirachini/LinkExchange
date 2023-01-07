@@ -1,0 +1,177 @@
+.Logo{
+    width:200px;
+    height:200px;
+}
+.tabbing{
+    margin-top:10px;
+    display:flex;
+    justify-content: space-around;
+    margin-bottom:5px;
+    padding:10px;
+}
+
+.info-table{
+    background-color: #4486FF;
+}
+
+.trans_table {
+    width: 100px;
+    font-size: 15px;
+}
+.trans_table th, .trans_table td {
+    padding: 7px 7px;
+    text-align: center;
+    color:black;
+    border-radius:5px;
+}
+
+.RequestSent{
+    background-color: #f6f6f6;
+    color: #0d0d0d;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 5px;
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+@media screen and (max-width: 800px){
+    .divider{
+        display:block;
+        position:absolute;
+        border:2px solid black;
+        width:2px;
+        height:200px;
+    }
+    .MuiTableRow-root{
+        display:flex !important;
+        flex-direction: column;
+    }
+    .tabbing{
+        margin-top:10px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom:10px;
+        padding:10px;
+    }
+    .tabs{
+        width:90% !important;
+        padding:20px;
+    }
+    .search{
+        height:45px;
+        margin-bottom:5px;
+    }
+    .MuiTableRow-head{
+        visibility: collapse;
+    }
+    .sentfrom,.sentto,.status,.time,.view,.edit,.receivedfrom,.recievedto{
+        display:flex !important;
+        justify-content: space-evenly;
+        align-items: center;
+        padding:0 !important;
+    }
+    .sentfrom::before{
+        content:"Request sent From";
+        color:white;
+        font-size:15px;
+        margin-left:-20.1vw;
+        background-color: #4486FF;
+        height:50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width:52vw;
+    }
+    .receivedfrom::before{
+        content:"Request Received From";
+        color:white;
+        font-size:15px;
+        margin-left:-20.1vw;
+        background-color: #4486FF;
+        height:50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width:52vw;
+    }
+    .sentto::before{
+        content:"Request sent To";
+        color: black;
+        font-size:15px;
+        margin-left:-20.2vw;
+        height:50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width:52vw;
+    }
+    .recievedto::before{
+        content:"Request Received To";
+        color: black;
+        font-size:15px;
+        margin-left:-20.2vw;
+        height:50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width:52vw;
+    }
+    .status::before{
+        content:"Status";
+        color: white;
+        font-size:15px;
+        margin-left:-23.2vw;
+        background-color: #4486FF;
+        height:50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width:52vw;
+    }
+    .time::before{
+        content:"Time to add";
+        color: black;
+        font-size:15px;
+        margin-left:-23.2vw;
+        height:50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width:52vw;
+    }
+    .view::before{
+        content:"View";
+        color: white;
+        font-size:15px;
+        margin-left:-22.1vw;
+        background-color: #4486FF;
+        height:50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width:52vw;
+    }
+    .edit::before{
+        content:"Edit";
+        color: black;
+        font-size:15px;
+        margin-left:-22.1vw;
+        height:50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width:52vw;
+    }
+    .tablerow{
+        margin-top:20px !important;
+    }
+}
+@media screen and (max-width: 1600px){
+    .trans_table{
+        width: 100vw;
+    }
+}
